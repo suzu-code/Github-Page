@@ -1,0 +1,953 @@
+<!-- <!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>背景色アニメーション</title>
+  <style>
+	body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Arial', sans-serif;
+	}
+
+	#container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	transition: background-color 0.3s ease;
+	}
+
+	button {
+	padding: 12px 24px;
+	font-size: 16px;
+	border: none;
+	background-color: #333;
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+	}
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>背景をアニメーションで変えよう</h1>
+    <button id="changeColorBtn">色を変える</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>背景色アニメーション</title> -->
+  <!-- <style>
+	body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Arial', sans-serif;
+	}
+
+	#container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	transition: background-color 0.3s ease;
+	}
+
+	button {
+	padding: 12px 24px;
+	font-size: 16px;
+	border: none;
+	background-color: #333;
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+	}
+  </style> -->
+<!-- </head>
+<body> -->
+  <!-- <div id="container">
+    <h1>背景をアニメーションで変えよう</h1>
+    <button id="changeColorBtn">色を変える</button>
+  </div>
+  <script src="app.js"></script> -->
+
+
+
+<!-- 
+  <h2 class="large grid centered square-grid text-xl">
+  <span>H</span>
+  <span>E</span>
+  <span>L</span>
+  <span>L</span>
+  <span>O</span>
+  <span>&nbsp;</span>
+  <span>W</span>
+  <span>O</span>
+  <span>R</span>
+  <span>L</span>
+  <span>D</span>
+</h2>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>背景色アニメーション</title>
+  <style>
+	body {
+	margin: 0;
+	height: 100vh;
+	display: flex;        
+	flex-direction: column;  
+	justify-content: center; 
+	align-items: center;     
+	}
+
+	button {
+	padding: 12px 24px;
+	font-size: 16px;
+	border: none;
+	background-color: #333;
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+	margin-top: 1rem; 
+	}
+
+	h1 {
+	text-align: center;
+	margin-bottom: -25px;
+	}
+
+  </style> 
+</head>
+<body>
+  <h1>背景をアニメーションで変えよう</h1><br>
+  <button id="changeColor">色を変える</button>
+  <script type="module" src="./app.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Click Boost Animation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      background: #0e0e2c;
+      color: white;
+      font-family: 'Outfit', sans-serif;
+      overflow: hidden;
+    }
+
+    #click-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #4D96FF;
+      border: none;
+      padding: 20px 40px;
+      font-size: 24px;
+      border-radius: 12px;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 0 15px #4D96FF;
+      transition: transform 0.2s;
+    }
+
+    #click-btn:hover {
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+
+    #count {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 20px;
+    }
+
+    #timer {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+    }
+
+    #animation-area {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .circle {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #FFD93D;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="click-btn">Click Me!</button>
+  <div id="count">Clicks: 0</div>
+  <div id="timer">00:00</div>
+  <div id="animation-area"></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Click Boost Animation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      background: #0e0e2c;
+      color: white;
+      font-family: 'Outfit', sans-serif;
+      overflow: hidden;
+    }
+
+    #click-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #4D96FF;
+      border: none;
+      padding: 20px 40px;
+      font-size: 24px;
+      border-radius: 12px;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 0 15px #4D96FF;
+      transition: transform 0.2s;
+    }
+
+    #click-btn:hover {
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+
+    #count {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 20px;
+    }
+
+    #timer {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+    }
+
+    #animation-area {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .circle {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #FFD93D;
+      border-radius: 50%;
+    }
+
+    .container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+
+.particle {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #1900ff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="large row container"></div>
+<div class="medium row">
+  <fieldset class="controls">
+    <input type="range" min=0 max=5 value=4 step=1 class="range" />
+  </fieldset>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>発光四角パーティクル</title>
+<style>
+  body {
+    margin: 0; padding: 0;
+    background: #111;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: white;
+  }
+  .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .particle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #fff9c4;
+    box-shadow:
+      0 0 8px 3px #fff9c4,
+      0 0 15px 7px #fff176,
+      0 0 25px 15px #ffd54f;
+    transform: translate(-50%, -50%);
+  }
+
+  .particle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.6rem;
+  height: 0.6rem;
+  background: #a68cff; /* 紫っぽい薄い色 */
+  border-radius: 0; /* 完全な四角形 */
+  box-shadow:
+    0 0 4px 1px #a68cff88,
+    0 0 8px 3px #7b57ff66,
+    0 0 12px 5px #5837ff44;
+  transform: translate(-50%, -50%);
+}
+
+  input[type=range] {
+    vertical-align: middle;
+    width: 200px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container"></div>
+
+<div class="controls">
+  <label for="range">Precision: </label>
+  <input id="range" type="range" min="0" max="5" value="4" step="1" />
+</div>
+
+<script src="./app.js" type="module"></script>
+
+</body>
+</html> -->
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>Click Boost Animation - 紫の発光四角パーティクル</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: #0e0e2c;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    overflow: hidden;
+  }
+
+
+  #click-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #695cff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 24px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 15px #695cffaa;
+    transition: transform 0.2s;
+    user-select: none;
+  }
+  #click-btn:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+
+
+  #count {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    user-select: none;
+  }
+
+
+  #timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    user-select: none;
+  }
+
+  /* アニメーション領域 */
+  #animation-area {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    pointer-events: none;
+    overflow: visible;
+  }
+
+
+  .particle {
+    position: absolute;
+    border-radius: 0;
+    background: #a68cff;
+    box-shadow:
+      0 0 4px 1px #a68cff88,
+      0 0 8px 3px #7b57ff66,
+      0 0 12px 5px #5837ff44;
+  }
+</style>
+</head>
+<body>
+
+  <button id="click-btn">Click Me!</button>
+  <div id="count">Clicks: 0</div>
+  <div id="timer">00:00</div>
+  <div id="animation-area"></div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html> -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>Click Boost Animation - 紫の発光四角パーティクル</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: #0e0e2c;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  #click-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #695cff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 24px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 15px #695cffaa;
+    transition: transform 0.2s;
+    user-select: none;
+    z-index: 10;
+  }
+  #click-btn:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+
+
+  #count {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    user-select: none;
+    z-index: 10;
+  }
+
+
+  #timer {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    user-select: none;
+    z-index: 10;
+  }
+
+  
+  .particle {
+    position: absolute;
+    border-radius: 0;
+    background: #a68cff;
+    box-shadow:
+      0 0 4px 1px #a68cff88,
+      0 0 8px 3px #7b57ff66,
+      0 0 12px 5px #5837ff44;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+
+  <button id="click-btn">Click Me!</button>
+  <div id="count">Clicks: 0</div>
+  <div id="timer">00:00</div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>発光四角パーティクル</title>
+<style>
+  body {
+    margin: 0; padding: 0;
+    background: #111;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: white;
+  }
+  .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .particle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.6rem;
+  height: 0.6rem;
+  background: #a68cff;
+  border-radius: 0; 
+  box-shadow:
+    0 0 4px 1px #a68cff88,
+    0 0 8px 3px #7b57ff66,
+    0 0 12px 5px #5837ff44;
+  transform: translate(-50%, -50%);
+}
+
+  .controls {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.5);
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    user-select: none;
+  }
+  input[type=range] {
+    vertical-align: middle;
+    width: 200px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container"></div>
+
+<div class="controls">
+  <label for="range">Precision: </label>
+  <input id="range" type="range" min="0" max="5" value="4" step="1" />
+</div>
+
+<script src="./app.js" type="module"></script>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>Click Boost Animation - 紫の発光四角パーティクル</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: #0e0e2c;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+  #click-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #695cff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 24px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 15px #695cffaa;
+    transition: transform 0.2s;
+    user-select: none;
+    z-index: 10;
+  }
+  #click-btn:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+
+
+  #count {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    user-select: none;
+    z-index: 10;
+  }
+
+
+  #timer {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    user-select: none;
+    z-index: 10;
+  }
+
+  
+  .particle {
+    position: absolute;
+    border-radius: 0;
+    background: #a68cff;
+    box-shadow:
+      0 0 4px 1px #a68cff88,
+      0 0 8px 3px #7b57ff66,
+      0 0 12px 5px #5837ff44;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+
+  <button id="click-btn">Click Me!</button>
+  <div id="count">Clicks: 0</div>
+  <div id="timer">00:00</div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>発光四角パーティクル - クリックで強化＋タイマー</title>
+<style>
+  body {
+    margin: 0; padding: 0;
+    background: #1d1a29;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: white;
+  }
+  .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .particle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #a68cff;
+    border-radius: 0;
+    box-shadow:
+      0 0 4px 1px #a68cff88,
+      0 0 8px 3px #7b57ff66,
+      0 0 12px 5px #5837ff44;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+  .controls {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(126, 120, 139, 0.5);
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    user-select: none;
+    z-index: 1000;
+  }
+  input[type=range] {
+    vertical-align: middle;
+    width: 200px;
+  }
+  #count {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    user-select: none;
+    z-index: 1000;
+  }
+  #timer {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    user-select: none;
+    z-index: 1000;
+  }
+  #click-btn {
+    position: fixed;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #695cff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 15px #695cffaa;
+    user-select: none;
+    z-index: 1000;
+  }
+  #click-btn:hover {
+    filter: brightness(1.1);
+  }
+</style>
+</head>
+<body>
+
+<div class="container"></div>
+
+<div id="count">Clicks: 0</div>
+<div id="timer">00:00</div>
+
+<button id="click-btn">Click Me!</button>
+
+<div class="controls">
+  <label for="range">Precision: </label>
+  <input id="range" type="range" min="0" max="5" value="4" step="1" />
+</div>
+
+<script type="module" src="./app.js"></script>
+
+</body>
+</html>
+
+
